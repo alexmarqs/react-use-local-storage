@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useLocalStorage } from '../src';
 import { renderHook, act } from '@testing-library/react-hooks';
 import * as utils from '../src/utils';
