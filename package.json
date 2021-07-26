@@ -1,0 +1,95 @@
+{
+  "version": "0.0.0",
+  "license": "MIT",
+  "name": "react-use-local-storage",
+  "description": "React hook to persist and sync state with localStorage",
+  "author": "Alexandre Marques",
+  "module": "dist/react-use-local-storage.esm.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmarqs/react-use-local-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexmarqs/react-use-local-storage/issues"
+  },
+  "homepage": "https://github.com/alexmarqs/react-use-local-storage#readme",
+  "keywords": [
+    "react",
+    "react-hook",
+    "react-hooks",
+    "local-storage",
+    "localStorage",
+    "storage",
+    "hooks",
+    "use-local-storage",
+    "uselocalstorage",
+    "sync"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests --collectCoverage",
+    "lint": "tsdx lint 'src/**/*.{ts,tsx}'",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "type:check": "tsc --noEmit",
+    "prepare-husky": "husky install",
+    "prepare": "tsdx build",
+    "release": "np"
+  },
+  "prettier": {
+    "printWidth": 90,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "size-limit": [
+    {
+      "path": "dist/react-use-local-storage.cjs.production.min.js",
+      "limit": "3 KB"
+    },
+    {
+      "path": "dist/react-use-local-storage.esm.js",
+      "limit": "3 KB"
+    }
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@size-limit/preset-small-lib": "^4.12.0",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "husky": "^6.0.0",
+    "np": "^7.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "size-limit": "^4.12.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "resolutions": {
+    "**/typescript": "^4.3.5",
+    "**/@typescript-eslint/eslint-plugin": "^4.28.1",
+    "**/@typescript-eslint/parser": "^4.28.1"
+  }
+}
