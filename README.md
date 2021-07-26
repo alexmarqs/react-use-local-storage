@@ -41,7 +41,7 @@ yarn add react-use-local-storage
 
 > If you are not using Typescript please ignore the types.
 
-```typescript
+```tsx
 import useLocalStorage from 'react-use-local-storage';
 // Named export alternative: import { useLocalStorage } from 'react-use-local-storage';
 
@@ -64,7 +64,7 @@ const [todos, setTodos] = useLocalStorage<string[]>('todos', [], { sync: true })
 
 ### Example 1
 
-```typescript
+```tsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import useLocalStorage from 'react-use-local-storage';
@@ -95,7 +95,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ### Example 2 (using with React Context API)
 
-```typescript
+```tsx
 import React, { createContext, useContext } from 'react';
 import ReactDOM from 'react-dom';
 import useLocalStorage from 'react-use-local-storage';
