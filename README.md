@@ -1,5 +1,5 @@
 # `react-use-local-storage`
-
+[![npm version](https://badge.fury.io/js/%40alexmarqs%2Freact-use-local-storage.svg)](https://badge.fury.io/js/%40alexmarqs%2Freact-use-local-storage)
 > React hook to persist and sync state with localStorage. Typescript + SSR supported.
 
 ## 🔨 Install
