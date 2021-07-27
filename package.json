@@ -27,8 +27,7 @@
     "storage",
     "hooks",
     "use-local-storage",
-    "uselocalstorage",
-    "sync"
+    "uselocalstorage"
   ],
   "publishConfig": {
     "access": "public"
