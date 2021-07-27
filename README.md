@@ -1,6 +1,7 @@
 # `@alexmarqs/react-use-local-storage`
 [![npm version](https://badge.fury.io/js/%40alexmarqs%2Freact-use-local-storage.svg)](https://badge.fury.io/js/%40alexmarqs%2Freact-use-local-storage)
 [![Actions Status](https://github.com/alexmarqs/react-use-local-storage/workflows/CI/badge.svg)](https://github.com/alexmarqs/react-use-local-storage/actions)
+[![codecov](https://codecov.io/gh/alexmarqs/react-use-local-storage/branch/main/graph/badge.svg?token=31EXDKJZIO)](https://codecov.io/gh/alexmarqs/react-use-local-storage)
 > React hook to persist and sync state with localStorage. Typescript + SSR supported.
 
 ## 🔨 Install
