@@ -7,13 +7,13 @@
 With NPM
 
 ```shell
-npm install react-use-local-storage
+npm install @alexmarqs/react-use-local-storage
 ```
 
 With Yarn
 
 ```shell
-yarn add react-use-local-storage
+yarn add @alexmarqs/react-use-local-storage
 ```
 
 ## 🚀 Features
@@ -42,8 +42,8 @@ yarn add react-use-local-storage
 > If you are not using Typescript please ignore the types.
 
 ```tsx
-import useLocalStorage from 'react-use-local-storage';
-// Named export alternative: import { useLocalStorage } from 'react-use-local-storage';
+import useLocalStorage from '@alexmarqs/react-use-local-storage';
+// Named export alternative: import { useLocalStorage } from '@alexmarqs/react-use-local-storage';
 
 // Scenario 1
 const [todos, setTodos] = useLocalStorage('todos', ['Todo 1', 'Todo 2']);
@@ -67,7 +67,7 @@ const [todos, setTodos] = useLocalStorage<string[]>('todos', [], { sync: true })
 ```tsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import useLocalStorage from 'react-use-local-storage';
+import useLocalStorage from '@alexmarqs/react-use-local-storage';
 
 const App = () => {
   const [value, setValue] = useLocalStorage('your-key', 'your-initial-value');
@@ -98,7 +98,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```tsx
 import React, { createContext, useContext } from 'react';
 import ReactDOM from 'react-dom';
-import useLocalStorage from 'react-use-local-storage';
+import useLocalStorage from '@alexmarqs/react-use-local-storage';
 
 // This code can be extracted to a TodosContext file
 
