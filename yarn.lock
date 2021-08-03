@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@alexmarqs/commitlint-config@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@alexmarqs/commitlint-config/-/commitlint-config-0.0.1.tgz#a8d3e123ab97cccb09420a55d900cd3f77f9156a"
+  integrity sha512-oPJ0sQdCBTtOMpFDv0x+SvayYk2t38qcWb2+o5ExD+Wmu9iBpJYTBhzuEZHqAGZDgTPtqAdcOY7M4xPLc8IHTg==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5", "@babel/code-frame@^7.5.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
@@ -931,13 +936,6 @@
     resolve-from "5.0.0"
     resolve-global "1.0.0"
     yargs "^16.2.0"
-
-"@commitlint/config-conventional@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-12.1.4.tgz#95bbab622f117a8a3e49f95917b08655040c66a8"
-  integrity sha512-ZIdzmdy4o4WyqywMEpprRCrehjCSQrHkaRTVZV411GyLigFQHlEBSJITAihLAWe88Qy/8SyoIe5uKvAsV5vRqQ==
-  dependencies:
-    conventional-changelog-conventionalcommits "^4.3.1"
 
 "@commitlint/ensure@^12.1.4":
   version "12.1.4"
@@ -3113,15 +3111,6 @@ conventional-changelog-angular@^5.0.11:
   integrity sha512-5GLsbnkR/7A89RyHLvvoExbiGbd9xKdKqDTrArnPbOqBqG/2wIosu0fHwpeIRI8Tl94MhVNBXcLJZl92ZQ5USw==
   dependencies:
     compare-func "^2.0.0"
-    q "^1.5.1"
-
-conventional-changelog-conventionalcommits@^4.3.1:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.0.tgz#7fc17211dbca160acf24687bd2fdd5fd767750eb"
-  integrity sha512-sj9tj3z5cnHaSJCYObA9nISf7eq/YjscLPoq6nmew4SiOjxqL2KRpK20fjnjVbpNDjJ2HR3MoVcWKXwbVvzS0A==
-  dependencies:
-    compare-func "^2.0.0"
-    lodash "^4.17.15"
     q "^1.5.1"
 
 conventional-commits-parser@^3.0.0:
